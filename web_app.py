@@ -9,7 +9,7 @@ import os
 model_path = 'E:/Volume E/Model_training/Foodvision_model.keras'
 model = tf.keras.models.load_model(model_path)
 
-# Define class names
+# Class names
 class_names = [
     'apple_pie', 'baby_back_ribs', 'baklava', 'beef_carpaccio', 'beef_tartare', 'beet_salad',
     'beignets', 'bibimbap', 'bread_pudding', 'breakfast_burrito', 'bruschetta', 'caesar_salad',
